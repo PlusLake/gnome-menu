@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Visual Studio Code
+Path=/usr/share/code/bin/
+Exec=code
+Icon=/usr/share/code/resources/app/resources/linux/code.png
+Categories=X-plus-programming;

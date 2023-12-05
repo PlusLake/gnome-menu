@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Intellij IDEA
+Path=/home/plus/managed/software/intellij/bin/
+Exec=idea.sh
+Icon=/home/plus/managed/software/intellij/bin/idea.png
+Categories=X-plus-programming;

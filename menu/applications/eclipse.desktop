@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Eclipse
+Path=/home/plus/managed/software/eclipse/java-2023-09/eclipse/
+Exec=eclipse
+Icon=/home/plus/managed/software/eclipse/java-2023-09/eclipse/icon.xpm
+Categories=X-plus-programming;
