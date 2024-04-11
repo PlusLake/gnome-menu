@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Poi
+Path=/usr/bin/
+Exec=poi
+Icon=/home/plus/managed/software/poi/poi.png
+Categories=X-plus-game;

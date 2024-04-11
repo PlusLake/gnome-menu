@@ -1,0 +1,68 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+    <Name>Applications</Name>
+    <Directory>X-GNOME-Menu-Applications.directory</Directory>
+    <DefaultAppDirs />
+    <DefaultDirectoryDirs />
+    <DefaultMergeDirs />
+    <Menu>
+        <Name>Programming</Name>
+        <Directory>plus-programming.directory</Directory>
+        <Include>
+            <Category>X-plus-programming</Category>
+        </Include>
+    </Menu>
+    <Menu>
+        <Name>Multimedia</Name>
+        <Directory>plus-multimedia.directory</Directory>
+        <Include>
+            <Category>X-plus-multimedia</Category>
+        </Include>
+    </Menu>
+    <Menu>
+        <Name>Tool</Name>
+        <Directory>plus-tool.directory</Directory>
+        <Include>
+            <Category>X-plus-tool</Category>
+        </Include>
+    </Menu>
+    <Menu>
+        <Name>Game</Name>
+        <Directory>plus-game.directory</Directory>
+        <Include>
+            <Category>X-plus-game</Category>
+        </Include>
+    </Menu>
+    <Menu>
+        <Name>Office</Name>
+        <Directory>Office.directory</Directory>
+        <Include>
+            <And>
+                <Category>Office</Category>
+                <Not>
+                    <Filename>org.gnome.Dictionary.desktop</Filename>
+                </Not>
+                <Not>
+                    <Filename>org.gnome.Evince.desktop</Filename>
+                </Not>
+            </And>
+        </Include>
+    </Menu>
+    <!-- End Office -->
+    <Layout>
+        <Merge type="menus" />
+        <Menuname>Other</Menuname>
+        <Merge type="files" />
+    </Layout>
+    <Include>
+        <Filename>org.gnome.Software.desktop</Filename>
+    </Include>
+    <!-- Separator between menus and gnome-app-install -->
+    <Layout>
+        <Merge type="menus" />
+        <Merge type="files" />
+        <Separator />
+        <Filename>org.gnome.Software.desktop</Filename>
+    </Layout>
+</Menu>
+<!-- End Applications -->
